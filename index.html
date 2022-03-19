@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PaginationOfStudentsData</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+     integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <style>
+p{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: -150px;
+    margin-right: 100px;
+}
+.center {
+    text-align: justify;
+  position:relative;
+  top: 100%;
+  left: 15%;
+  size: 20px;
+     margin-left: -100px;
+    margin-right: 50px;
+
+}
+.container
+{
+    padding:50px;
+   
+}
+#list
+{
+    text-align: center;
+}
+
+</style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-12" id="con">
+                <p class="h2">Students Data</p>
+            
+               </br>
+               
+              <div id="list"></div>
+            
+        </br>
+                <div class="center">
+                    <button type="button" class="btn btn-secondary"onclick="firstPage()">First</button>
+                    <button type="button" class="btn btn-primary"onclick="previousPage()">Previous</button>
+                    <button type="button" class="btn btn-primary"onclick="nextPage()">2</button>
+                    <button type="button" class="btn btn-primary" onclick="nextPage()" >3</button>
+                    <button type="button" class="btn btn-primary"onclick="nextPage()">4</button>
+                    <button type="button" class="btn btn-primary"onclick="nextPage()">5</button>
+                    <button type="button" class="btn btn-primary" onclick="nextPage()" >6</button>
+                    <button type="button" class="btn btn-primary"onclick="nextPage()">7</button>
+                    <button type="button" class="btn btn-primary"onclick="nextPage()">8</button>
+                    <button type="button" class="btn btn-primary" onclick="nextPage()">Next</button>
+                    <button type="button" class="btn btn-secondary"onclick="lastPage()">Last</button>
+                </div>
+              
+                
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+<!--<script src="https://app.zenclass.in/sheets/v1/js/zen/suite/bundle.js"></script>-->
+</body>
+</html>
